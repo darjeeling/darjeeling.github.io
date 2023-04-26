@@ -16,14 +16,17 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+        ('IZ4U.NET', 'https://iz4u.net/'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+            ('Twitter', 'https://twitter.com/darjeelingt'),
+            ('Mastodon', 'https://mtd.pythonasia.org/web/@darjeeling'),
+            ('Facebook','https://www.facebook.com/kwonhan.bae'),
+            ('Linkedin','https://www.linkedin.com/in/kwonhanbae/'),
+)
 
 DEFAULT_PAGINATION = 10
 
