@@ -24,6 +24,7 @@ LINKS = (
 SOCIAL = (
             ('Twitter', 'https://twitter.com/darjeelingt'),
             ('Mastodon', 'https://mtd.pythonasia.org/web/@darjeeling'),
+            ('github','https://github.com/darjeeling/'),
             ('Facebook','https://www.facebook.com/kwonhan.bae'),
             ('Linkedin','https://www.linkedin.com/in/kwonhanbae/'),
 )
@@ -32,6 +33,8 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+PLUGINS = ['sitemap']
 
 
 # https://github.com/pelican-plugins/sitemap
