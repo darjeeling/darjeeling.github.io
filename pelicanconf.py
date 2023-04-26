@@ -35,6 +35,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 PLUGINS = ['sitemap']
+THEME = 'pelican-chemistry'
 
 
 # https://github.com/pelican-plugins/sitemap
