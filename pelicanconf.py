@@ -29,3 +29,20 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+
+# https://github.com/pelican-plugins/sitemap
+SITEMAP = {
+    "exclude": ["tag/", "category/"],
+    "format": "xml",
+    "priorities": {
+        "articles": 0.5,
+        "indexes": 0.5,
+        "pages": 0.5
+    },
+    "changefreqs": {
+        "articles": "monthly",
+        "indexes": "daily",
+        "pages": "monthly"
+    }
+}
