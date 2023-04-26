@@ -12,7 +12,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: checkout blog repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Checkout pelican theme repo
+        uses: actions/checkout@v3
+        with:
+          repository: albertodonato/pelican-chemistry
+          path: pelican-chemistry
+          fetch-depth: 2
       - uses: nelsonjchen/gh-pages-pelican-action@0.1.5
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
