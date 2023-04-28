@@ -1,0 +1,3 @@
+[submodule "pelican-chemistry"]
+	path = pelican-chemistry
+	url = https://github.com/albertodonato/pelican-chemistry.git
