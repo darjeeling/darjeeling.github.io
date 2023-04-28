@@ -28,4 +28,4 @@ jobs:
           pelican content -o output -s publishconf.py
       - name: publish blog
         run: |
-          ghp-import output && git push origin gh-pages
+          ghp-import output && git push -f origin gh-pages
