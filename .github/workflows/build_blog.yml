@@ -15,12 +15,7 @@ jobs:
       - name: checkout blog repo
         uses: actions/checkout@v3
         with:
-          path: main
-      - name: Checkout pelican theme repo
-        uses: actions/checkout@v3
-        with:
-          repository: albertodonato/pelican-chemistry
-          path: pelican-chemistry
+          submodules: true
       - uses: nelsonjchen/gh-pages-pelican-action@0.1.5
         env:
           PELICAN_THEME_FOLDER: pelican-chemistry
