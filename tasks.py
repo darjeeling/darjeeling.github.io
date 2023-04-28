@@ -26,7 +26,8 @@ CONFIG = {
     # Output path. Can be absolute or relative to tasks.py. Default: 'output'
     'deploy_path': SETTINGS['OUTPUT_PATH'],
     # Github Pages configuration
-    'github_pages_branch': 'main',
+    # WHY?
+    'github_pages_branch': 'gh-pages',
     'commit_message': "'Publish site on {}'".format(datetime.date.today().isoformat()),
     # Host and port for `serve`
     'host': 'localhost',
