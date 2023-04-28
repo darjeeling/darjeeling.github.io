@@ -15,13 +15,12 @@ jobs:
       - name: checkout blog repo
         uses: actions/checkout@v3
         with:
-          fetch-depth: 2
+          path: main
       - name: Checkout pelican theme repo
         uses: actions/checkout@v3
         with:
           repository: albertodonato/pelican-chemistry
           path: pelican-chemistry
-          fetch-depth: 2
       - uses: nelsonjchen/gh-pages-pelican-action@0.1.5
         env:
           PELICAN_THEME_FOLDER: pelican-chemistry
