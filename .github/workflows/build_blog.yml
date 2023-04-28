@@ -24,4 +24,5 @@ jobs:
           fetch-depth: 2
       - uses: nelsonjchen/gh-pages-pelican-action@0.1.5
         env:
+          PELICAN_THEME_FOLDER: pelican-chemistry
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
