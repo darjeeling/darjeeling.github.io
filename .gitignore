@@ -103,5 +103,5 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# ddd
-output
+# output directory
+output/
