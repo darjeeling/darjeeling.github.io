@@ -1,0 +1,25 @@
+@import 'variables';
+
+@media print {
+
+    a[href]::after {
+        content: none;
+
+        .post-content & {
+            content: ' [' attr(href) ']';
+        }
+    }
+
+    #title-area {
+        margin-top: 0;
+
+        .title h1 a {
+            color: @color-text;
+        }
+    }
+
+    pre {
+        white-space: pre-wrap;
+        word-break: break-word;
+    }
+}
