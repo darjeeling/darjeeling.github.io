@@ -1,0 +1,24 @@
+---
+layout: post
+date: 2014-07-10 03:48:14 GMT
+title: "Link post"
+---
+<http://instagram-engineering.tumblr.com/post/89992572022/migrating-aws-fb>
+
+<p><a class="tumblr_blog" href="http://instagram-engineering.tumblr.com/post/89992572022/migrating-aws-fb">instagram-engineering</a>:</p>
+
+<blockquote>
+<p>When Instagram joined Facebook in 2012, we quickly found numerous integration points with Facebook’s infrastructure that allowed us to accelerate our product development and make our community safer. In the beginning, we built these integrations by effectively bouncing through Facebook web&#8230;</p>
+</blockquote>
+
+<p>AWS 에서 AWS VPC 로 그리고 direct connect 를 통해서 이전하는 과정이 흥미롭다. </p>
+
+<p>마지막 교휸이 정말 좋네..</p>
+
+
+
+<ul><li>Plan to change just the bare minimum needed to support the new environment, and avoid the temptation of “while we’re here.”</li>
+<li>Sometimes “crazy” ideas work — Neti is proof of that.</li>
+<li>Invest in making your tools; the last thing you need is unexpected curveballs when conducting a large-scale migration like this.</li>
+<li>Reuse the concepts and workflows familiar to the team to avoid compounding the complexity of communicating changes to the team.</li>
+</ul>
