@@ -2,6 +2,7 @@
 layout: post
 date: 2013-01-19 02:28:51 GMT
 title: "pythonbrew 좋쿠나"
+lang: ko
 ---
 &#13;
 <p>https://github.com/utahta/pythonbrew</p>&#13;

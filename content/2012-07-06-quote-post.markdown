@@ -2,6 +2,7 @@
 layout: post
 date: 2012-07-06 16:12:20 GMT
 title: "Quote post"
+lang: ko
 ---
 <p> </p>
 

@@ -2,6 +2,7 @@
 layout: post
 date: 2014-07-10 03:48:14 GMT
 title: "Link post 2014-07-10"
+lang: ko
 ---
 <http://instagram-engineering.tumblr.com/post/89992572022/migrating-aws-fb>
 

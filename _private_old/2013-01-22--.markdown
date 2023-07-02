@@ -2,6 +2,7 @@
 layout: post
 date: 2013-01-22 06:40:55 GMT
 title: "블로그는 인생의 낭비입니다."
+lang: ko
 ---
 <p class="p1"><span class="s1">15:36 A </span><span class="s2">: </span><strong>darjeeling: 현재 팀장이 consulting 에 약간 관심이 없어졌네요.</strong></p>&#13;
 <p class="p2"><span class="s1">15:36 </span>darjeeling: <span class="s3">ㅋㅋㅋ</span></p>&#13;

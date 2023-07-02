@@ -2,6 +2,7 @@
 layout: post
 date: 2013-04-22 07:15:46 GMT
 title: "Photo post"
+lang: ko
 ---
 {% img https://64.media.tumblr.com/269182334f163a2947a3b5356762cfbe/tumblr_mlmr35O4PI1qgcpobo1_1280.png %}
 

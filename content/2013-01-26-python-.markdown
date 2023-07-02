@@ -2,6 +2,7 @@
 layout: post
 date: 2013-01-26 14:31:55 GMT
 title: "Python 세미나"
+lang: ko
 ---
 <p>Python 을 주로 사용하는 관계로..&nbsp;</p>
 <p>더 많은 개발자를 양산 ( .. ) 해야 나의 일이 편해지는 관계로 ..</p>
