@@ -1,5 +1,7 @@
+---
 Title: About Me
 Language: en
+---
 
 ## Who am I?
 
@@ -7,8 +9,13 @@ Name : KwonHan Bae
 I am a passionate Python enthusiast and SRE with over 30 years of experience in computing. still using Python since its early 1.x versions.
 
 ## Contact
+
 - Email: darjeeling of gmail.com
 - PSF email : kwonhan.bae of python.org
+
+if you need help about python community or python software foundation, feel free to contact me.
+- [calendly with zoom](https://calendly.com/kwonhan)
+
 
 ## Currently working on Open Source Community
 

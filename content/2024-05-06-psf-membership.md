@@ -1,3 +1,4 @@
+---
 Title: Join the Python Software Foundation: Basic and Managing Membership Guide
 Date: 2024-05-06 15:11
 Category: Python
@@ -5,6 +6,7 @@ Slug: psf-membership
 Tags: python, psf
 Lang: en
 Summary: how to join psf basic membership
+---
 
 ## Why Should I Join PSF Basic Membership?
 
