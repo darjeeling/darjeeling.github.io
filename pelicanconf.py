@@ -25,7 +25,6 @@ PAGE_LANG_URL = 'pages/{slug}-{lang}.html'
 
 # Blogroll
 LINKS = (
-        ('IZ4U.NET', 'https://iz4u.net/'),
 )
 
 # Social widget
@@ -39,10 +38,11 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 DEFAULT_LANG = 'en'
-PAGES_ON_MENU = True
+PAGES_ON_MENU = False
+INDEXES_ON_MENU = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 PLUGINS = ['sitemap']
 THEME = 'pelican-chemistry'
