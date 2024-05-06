@@ -1,4 +1,4 @@
-AUTHOR = 'KwonHan'
+AUTHOR = 'KwonHan Bae'
 SITENAME = 'Eyes For you'
 SITEURL = ''
 
