@@ -63,3 +63,9 @@ SITEMAP = {
         "pages": "monthly"
     }
 }
+
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+
+
+}
