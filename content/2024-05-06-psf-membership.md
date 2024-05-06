@@ -34,16 +34,16 @@ Summary: how to join psf basic membership
 - If you are running a user group or community and spending 5 hours or more per month on Python-related activities, you can apply for [Contributing/Managing Membership](https://psfmember.org/civicrm/contribute/transact/?reset=1&id=32).
 
 - Membership Type:
-  - Select "Managing Member" if you meet the criteria mentioned above.
+    - Select "Managing Member" if you meet the criteria mentioned above.
 
 - Additional Contribution:
-  - The default is **0 USD** not 10 USD. You can contribute more if you want to support the PSF, but it's not mandatory.
+    - The default is **0 USD** not 10 USD. You can contribute more if you want to support the PSF, but it's not mandatory.
 
 - Project(s) or Working Group(s):
-  - Enter your User Group or Community Name.
+    - Enter your User Group or Community Name.
 
 - Voting Member:
-  - Select **YES** to be eligible to vote for the PSF Board of Directors.
+    - Select **YES** to be eligible to vote for the PSF Board of Directors.
 
 - That's it! You are now a PSF Managing Member. Thank you for your support!
 
