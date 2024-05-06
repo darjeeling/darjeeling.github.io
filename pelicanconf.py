@@ -23,8 +23,17 @@ PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 PAGE_LANG_URL = 'pages/{slug}-{lang}.html'
 
+
+# Tag pages
+TAGS_URL = 'tags.html'
+TAGS_SAVE_AS = 'tags.html'
+TAG_URL = 'tag/{slug}.html'
+TAG_SAVE_AS = 'tag/{slug}.html'
+
 # Blogroll
 LINKS = (
+    ('About Me','/pages/about-me/'),
+    ('PSF!','/category/psf/'),
 )
 
 # Social widget
@@ -39,7 +48,7 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 DEFAULT_LANG = 'en'
 PAGES_ON_MENU = False
-INDEXES_ON_MENU = False
+INDEXES_ON_MENU = True
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -66,6 +75,6 @@ SITEMAP = {
 
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
-
-
 }
+
+
