@@ -1,9 +1,5 @@
----
-title: About Me
-lang: en
----
-
-About me
+Title: About Me
+Language: en
 
 ## Who am I?
 

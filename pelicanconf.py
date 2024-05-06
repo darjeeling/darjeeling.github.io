@@ -33,7 +33,7 @@ TAG_SAVE_AS = 'tag/{slug}.html'
 # Blogroll
 LINKS = (
     ('About Me','/pages/about-me/'),
-    ('PSF!','/category/psf/'),
+    ('PSF!','/tag/psf/'),
 )
 
 # Social widget
@@ -78,3 +78,16 @@ EXTRA_PATH_METADATA = {
 }
 
 
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.extra': {},
+        'markdown.extensions.admonition': {},
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight'
+        },
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {
+            'permalink': 'true',
+        },
+    }
+}
