@@ -17,8 +17,8 @@ AUTHOR_FEED_RSS = None
 
 # URL Settings
 # https://docs.getpelican.com/en/stable/settings.html#url-settings
-ARTICLE_URL = 'posts/{lang}/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = 'posts/{lang}/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
+ARTICLE_URL = 'posts/{lang}/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{lang}/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 PAGE_LANG_URL = 'pages/{slug}-{lang}.html'
