@@ -33,7 +33,7 @@ TAG_SAVE_AS = 'tag/{slug}.html'
 # Blogroll
 LINKS = (
     ('About Me','/pages/about-me/'),
-    ('PSF!','/tag/psf/'),
+    ('PSF!','/tag/psf.html'),
 )
 
 # Social widget
