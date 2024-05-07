@@ -24,6 +24,8 @@ PAGE_SAVE_AS = 'pages/{slug}/index.html'
 PAGE_LANG_URL = 'pages/{slug}-{lang}.html'
 
 
+GOOGLE_ANALYTICS='G-DFEVBR8NWY'
+
 # Tag pages
 TAGS_URL = 'tags.html'
 TAGS_SAVE_AS = 'tags.html'
