@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Eyes For you - Python</title><link href="https://iz4u.net/" rel="alternate"></link><link href="https://iz4u.net/feeds/python.atom.xml" rel="self"></link><id>https://iz4u.net/</id><updated>2024-05-06T15:11:00+09:00</updated><entry><title>Join the Python Software Foundation: Basic and Managing Membership Guide</title><link href="https://iz4u.net/posts/en/2024/05/06/psf-membership/" rel="alternate"></link><published>2024-05-06T15:11:00+09:00</published><updated>2024-05-06T15:11:00+09:00</updated><author><name>KwonHan Bae</name></author><id>tag:iz4u.net,2024-05-06:/posts/en/2024/05/06/psf-membership/</id><summary type="html">&lt;p&gt;how to join psf basic membership&lt;/p&gt;</summary><content type="html">&lt;h2 id="why-should-i-join-psf-basic-membership"&gt;Why Should I Join PSF Basic Membership?&lt;a class="headerlink" href="#why-should-i-join-psf-basic-membership" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;YES, you should!&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;By letting the Python Software Foundation know of your presence and your use of Python, you can support them.&lt;/li&gt;
+&lt;li&gt;It's completely &lt;strong&gt;free&lt;/strong&gt; to join.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-join-psf-basic-membership"&gt;How to Join PSF Basic Membership&lt;a class="headerlink" href="#how-to-join-psf-basic-membership" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Sign up and create an account at:
+  &lt;a href="https://www.python.org/accounts/signup/"&gt;https://www.python.org/accounts/signup/&lt;/a&gt;
+  Remember to verify your email.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter your basic membership information, such as your name and address, at:
+  &lt;a href="https://www.python.org/users/membership/"&gt;https://www.python.org/users/membership/&lt;/a&gt;
+  This information helps us understand how many Python enthusiasts there are worldwide.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;That's it! You are now a PSF Basic Member. We appreciate your support!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="why-should-i-become-a-managing-member"&gt;Why Should I Become a Managing Member?&lt;a class="headerlink" href="#why-should-i-become-a-managing-member" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;As a Managing Member, you have the right to vote for the PSF Board of Directors, ensuring your voice is represented.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-become-a-managing-member"&gt;How to Become a Managing Member&lt;a class="headerlink" href="#how-to-become-a-managing-member" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If you are running a user group or community and spending 5 hours or more per month on Python-related activities, you can apply for &lt;a href="https://psfmember.org/civicrm/contribute/transact/?reset=1&amp;amp;id=32"&gt;Contributing/Managing Membership&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Membership Type:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select "Managing Member" if you meet the criteria mentioned above.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Additional Contribution:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The default is &lt;strong&gt;0 USD&lt;/strong&gt; not 10 USD. You can contribute more if you want to support the PSF, but it's not mandatory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Project(s) or Working Group(s):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enter your User Group or Community Name.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Voting Member:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select &lt;strong&gt;YES&lt;/strong&gt; to be eligible to vote for the PSF Board of Directors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;That's it! You are now a PSF Managing Member. Thank you for your support!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you are already a Managing Member, please update your Voting Affirmation at:
+ &lt;a href="https://psfmember.org/civicrm/votingaffirmation/"&gt;https://psfmember.org/civicrm/votingaffirmation/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Python"></category><category term="python"></category><category term="psf"></category></entry></feed>
