@@ -1,8 +1,25 @@
+import os
+import pprint
+from pathlib import Path
+
 AUTHOR = 'KwonHan Bae'
+
 SITENAME = 'Eyes For you'
 SITEURL = ''
 
 PATH = 'content'
+
+ARTICLE_PATHS = ['articles']
+
+article_multi_directoy_source_target = Path(PATH) / 'articles'
+subdirectories = []
+for target_dir in article_multi_directoy_source_target.glob("*" + os.sep):
+    subdirectories.append(
+        target_dir.relative_to(Path(PATH))
+    )
+
+# Reconstruct the ARTICLE_PATHS list with a new list of subdirectories.
+ARTICLE_PATHS = ARTICLE_PATHS + subdirectories
 
 TIMEZONE = 'Asia/Seoul'
 
