@@ -36,6 +36,8 @@ Go to this page and become a supporting member:
 - Supporting Member: $99 USD per year
 - Supporting Member (Sliding Scale Rate): $25 ~ $99 USD per year
 
+If you have problem in Check Voting Eligibility, you can contact the PSF with the email address <psf-donations@python.org>
+
 ### be the PSF managing/contributing member
 
 If you are spending 5 hours or more per month on Python-related activities, you can apply for [Contributing/Managing Membership](https://psfmember.org/civicrm/contribute/transact/?reset=1&id=32).
@@ -43,4 +45,10 @@ If you are spending 5 hours or more per month on Python-related activities, you 
 - you are helping the community organize events, meetups, or workshops
 - If you are contributing to Python projects, documentation, or translations, which are under an OSI-approved license
 
+If you have problem in Check Voting Eligibility, you can contact the PSF with the email address <psf-elections@pyfound.org>
+
 If you submit your PSF Managing or Contributing Membership Self-Certification before the Voter affirmation deadline, which is Tuesday, June 25th, 2:00 pm UTC, you will be eligible to vote for the PSF Board Election 2024.
+
+### Deadline
+
+you must affirm your PSF Membership voting status by Tuesday, June 25th, 2:00 pm UTC.
