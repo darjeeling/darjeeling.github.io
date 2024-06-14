@@ -24,6 +24,9 @@ Please follow this step by step guide to check your vote eligibility:
 
 also please check PSF blog post [Affirm your PSF Membership Voting Status](https://pyfound.blogspot.com/2024/06/affirm-your-psf-membership-voting-status.html)
 
+
+There is some confusion in the login systems of python.org and psfmember.org. They are two different systems, so if you can’t log in with your password, please reset it.
+
 ## How to Get Vote Eligibility
 
 To get vote eligibility for the PSF Board Election 2024, you need to be  one of the following membership types: Supporting Member, Managing Member, Contributing Member. PSF Fellow
