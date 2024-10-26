@@ -52,6 +52,7 @@ TAG_SAVE_AS = 'tag/{slug}.html'
 # Blogroll
 LINKS = (
     ('About Me','/pages/about-me/'),
+    ('파이콘 한국2024','/pages/pk2024/'),
     ('PSF!','/tag/psf.html'),
 )
 
