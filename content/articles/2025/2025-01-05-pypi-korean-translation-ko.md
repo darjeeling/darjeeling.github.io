@@ -22,7 +22,12 @@ Summary:  PyPI warehouse 한국어 번역이 100%  를 달성하여, PyPI 웹사
 * [python 공식 문서 한국어 번역](https://devguide.python.org/documentation/translating/) - 3.9 까지 번역되어 있습니다.
 * 이 외에도 많은 부분이 번역이 필요하지만 생각나는 부분만 적었습니다. 알려주시면 리스트에 추가하겠습니다.
 
-![pypi 한국어 번역 상위 10위]({static}/images/pypi_translation_top10_user_activity_trends.png)
+### pypi warehouse 한국어 번역 상위 10위
+
+![pypi 한국어 번역 상위 10위]({static}/images/pypi_translation_user_activity_ranking.png)
+
+### pypi warehouse 한국어 번역 상위 10위 사용자 활동 추이
+
 ![pypi 한국어 번역 상위 10위 사용자 활동 추이]({static}/images/pypi_translation_top10_user_activity_trends.png)
 
 ## 번역에 기여하신분
