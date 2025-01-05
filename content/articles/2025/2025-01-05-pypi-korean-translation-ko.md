@@ -20,7 +20,7 @@ Summary:  PyPI warehouse 한국어 번역이 100%  를 달성하여, PyPI 웹사
 
 * [django 번역](https://explore.transifex.com/django/django/) - 98% 이므로 조금만 하면 됩니다.
 * [django 문서 번역](https://explore.transifex.com/django/django-docs/) -  현재 18% 번역되어 있습니다
-* [django gurls tutorial 번역](https://crowdin.com/project/django-girls-tutorial) - 92% 번역되어 있습니다.
+* [django girls tutorial 번역](https://crowdin.com/project/django-girls-tutorial) - 92% 번역되어 있습니다.
 * [python 공식 문서 한국어 번역](https://devguide.python.org/documentation/translating/) - 3.9 까지 번역되어 있습니다.
 * 이 외에도 많은 부분이 번역이 필요하지만 생각나는 부분만 적었습니다. 알려주시면 리스트에 추가하겠습니다.
 
@@ -32,7 +32,7 @@ Summary:  PyPI warehouse 한국어 번역이 100%  를 달성하여, PyPI 웹사
 
 ![pypi 한국어 번역 상위 10위 사용자 활동 추이]({static}/images/pypi_translation_top10_user_activity_trends.png)
 
-## 번역에 기여하신분
+### 번역에 기여하신분
 
 | ID |Activity Count|
 |:-------|-------:|
@@ -67,6 +67,10 @@ Summary:  PyPI warehouse 한국어 번역이 100%  를 달성하여, PyPI 웹사
 |wckim          |    2|
 |joonykim       |    2|
 |ewdurbin       |    1|
+
+### 통계치 만드는 스크립트
+
+<https://github.com/darjeeling/personal-python-scripts/tree/main/2024-pypi-stats> 여기에 올렸습니다.
 
 ## Python 에 기여하는 방법
 
