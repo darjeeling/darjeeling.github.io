@@ -1,4 +1,3 @@
----
 Title: 물은 100도에서 끓고 번역은 100%가 되어야 끝납니다.
 Date: 2025-01-05 13:00
 Category: Python
@@ -6,7 +5,6 @@ Slug: pypi-translated-ko
 Tags: python
 Lang: ko
 Summary:  PyPI warehouse 한국어 번역이 100%  를 달성하여, PyPI 웹사이트에 한국어 번역이 추가되었습니다.
----
 
 ## PyPI warehouse 한국어 번역이 100% 달성
 
