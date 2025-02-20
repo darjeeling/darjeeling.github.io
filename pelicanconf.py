@@ -41,10 +41,10 @@ ARTICLE_URL = '{slug}-{lang}.html'
 ARTICLE_SAVE_AS = '{slug}-{lang}.html'
 ARTICLE_LANG_URL = '{slug}-{lang}.html'
 ARTICLE_LANG_SAVE_AS = '{slug}-{lang}.html'
-PAGE_URL = 'pages/{slug}/'
-PAGE_SAVE_AS = 'pages/{slug}/index.html'
-#PAGE_LANG_URL = 'pages/{slug}-{lang}.html'
-PAGE_LANG_URL = 'pages/{slug}.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+PAGE_LANG_URL = '{slug}/'
+PAGE_LANG_SAVE_AS = '{slug}/index.html'
 
 
 GOOGLE_ANALYTICS='G-DFEVBR8NWY'
@@ -57,8 +57,8 @@ TAG_SAVE_AS = 'tag/{slug}.html'
 
 # Blogroll
 LINKS = (
-    ('About Me','/pages/about-me/'),
-    ('파이콘 한국2024','/pages/pk2024/'),
+    ('About Me','/about-me/'),
+    ('파이콘 한국2024','/pk2024/'),
     ('PSF!','/tag/psf.html'),
 )
 
