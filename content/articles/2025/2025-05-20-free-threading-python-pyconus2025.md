@@ -42,7 +42,7 @@ CFFI 는 아직 지원하지 않지만 [쿼트싸이트의 fork](https://github.
 
 ### 다음을 참조해서 free-threading-python 호환이 잘되는지 확인합니다
 
-- [Free-threaded Python Library Compatibility Checker](https://ft-checker.com/)
+- [Free-threaded Python Library Compatibility Checker](https://ft-checker.com/) - 나동희님 제작
 - [🧵 Free-Threaded Wheels](https://hugovk.github.io/free-threaded-wheels/)
 - [Compatibility Status Tracking#](https://py-free-threading.github.io/tracking/)
 
