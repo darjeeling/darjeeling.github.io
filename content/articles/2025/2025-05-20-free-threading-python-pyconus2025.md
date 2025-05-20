@@ -33,7 +33,7 @@ Free Threading Python은 파이썬의 GIL(Global Interpreter Lock)을 제거하�
 - PyO3
 - f2py
 
-CFFI 는 아직 지원하지 않지만 [쿼트싸이트의 fork](https://github.com/Quansight-Labs/cffi) 를 사용해서 지원이 가능합니다.
+CFFI 는 아직 지원하지 않지만 [퀀사이트의 fork](https://github.com/Quansight-Labs/cffi) 를 사용해서 지원이 가능합니다.
 [지원을 하지 않겠다는 이슈](https://github.com/python-cffi/cffi/issues/119)는 있는데 CFFI 는 대부분 인터페이싱으로 사용하기 때문에 이해는 되는 결정입니다. 포크된 CFFI  를 사용하면 Free Threading Python을 사용할 수 있지만 세밀한 구현은 아니라서 성능은 떨어질것 같습니다.
 
 ## 기여하는 방법
