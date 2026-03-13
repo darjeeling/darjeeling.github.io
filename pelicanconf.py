@@ -1,11 +1,12 @@
 import os
-import pprint
 from pathlib import Path
 
 AUTHOR = 'KwonHan Bae'
 
 SITENAME = 'Eyes For you'
 SITEURL = ''
+SEO_SITEURL = 'https://iz4u.net'
+META_DESCRIPTION = 'KwonHan Bae writes about Python, open source, PSF, travel, and community work.'
 
 PATH = 'content'
 
@@ -24,6 +25,9 @@ ARTICLE_PATHS = ARTICLE_PATHS + subdirectories
 TIMEZONE = 'Asia/Seoul'
 
 DEFAULT_LANG = 'ko'
+DEFAULT_METADATA = {
+    'lang': 'ko',
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -41,13 +45,19 @@ ARTICLE_URL = '{slug}-{lang}.html'
 ARTICLE_SAVE_AS = '{slug}-{lang}.html'
 ARTICLE_LANG_URL = '{slug}-{lang}.html'
 ARTICLE_LANG_SAVE_AS = '{slug}-{lang}.html'
+ARTICLE_TRANSLATION_ID = 'translation_key'
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 PAGE_LANG_URL = '{slug}/'
 PAGE_LANG_SAVE_AS = '{slug}/index.html'
+PAGE_TRANSLATION_ID = 'translation_key'
 
 
 GOOGLE_ANALYTICS='G-DFEVBR8NWY'
+OG_LOCALE_MAP = {
+    'ko': 'ko_KR',
+    'en': 'en_US',
+}
 
 # Tag pages
 TAGS_URL = 'tags.html'
@@ -78,7 +88,8 @@ INDEXES_ON_MENU = True
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-PLUGINS = ['sitemap']
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['sitemap', 'seo_i18n']
 THEME = 'pelican-chemistry'
 
 

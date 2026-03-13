@@ -1,0 +1,21 @@
+[project]
+name = "darjeeling-blog"
+version = "0.1.0"
+description = "Pelican-powered blog for iz4u.net"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "ghp-import==2.1.0",
+    "invoke==2.2.0",
+    "livereload==2.7.1",
+    "markdown==3.10",
+    "pelican==4.11.0.post0",
+    "pelican-sitemap==1.2.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff==0.13.0",
+]
+
+[tool.uv]
+default-groups = ["dev"]
