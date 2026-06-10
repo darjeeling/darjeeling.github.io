@@ -14,10 +14,10 @@ dependencies = [
     "pelican==4.11.0.post0",
     "pelican-sitemap==1.2.2",
     "pillow>=12.2.0",
-    "pydantic-ai-slim[openai]>=1.68.0",
+    "pydantic-ai-slim[openai]>=1.99.0",
     "pydantic-settings>=2.13.1",
     "pyrage>=1.3.0",
-    "python-multipart>=0.0.32",
+    "python-multipart>=0.0.30",
     "uvicorn>=0.41.0",
 ]
 
@@ -30,3 +30,6 @@ dev = [
 
 [tool.uv]
 default-groups = ["dev"]
+# pelican caps pygments <2.20 but 2.20 fixes GHSA-5239-wwwm-4pmq (ReDoS);
+# the site build is verified against the newer pygments
+override-dependencies = ["pygments>=2.20.0"]

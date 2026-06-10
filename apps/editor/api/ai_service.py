@@ -5,7 +5,7 @@ from datetime import datetime, UTC
 
 from pydantic import BaseModel
 from pydantic_ai import Agent, BinaryContent
-from pydantic_ai.models.openai import OpenAIModel
+from pydantic_ai.models.openai import OpenAIChatModel
 from pydantic_ai.providers.openai import OpenAIProvider
 
 from .config import EditorSettings
@@ -106,14 +106,14 @@ class AIService:
         self.ensure_available()
         return AIDependencies(settings=self.settings)
 
-    def _model(self) -> OpenAIModel:
+    def _model(self) -> OpenAIChatModel:
         self.ensure_available()
         provider = self._provider or OpenAIProvider(
             base_url=self.settings.openai_base_url,
             api_key=self.settings.openai_api_key,
         )
         self._provider = provider
-        return OpenAIModel(self.settings.openai_model, provider=provider)
+        return OpenAIChatModel(self.settings.openai_model, provider=provider)
 
     def _title_agent(self) -> Agent[AIDependencies, TitleSuggestions]:
         return Agent(
