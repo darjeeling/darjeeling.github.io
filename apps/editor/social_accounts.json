@@ -1,0 +1,35 @@
+[
+  {
+    "id": "bluesky-ko",
+    "network": "bluesky",
+    "lang": "ko",
+    "handle": "darjeeling.bsky.social",
+    "service_url": "https://bsky.social"
+  },
+  {
+    "id": "mastodon-ko",
+    "network": "mastodon",
+    "lang": "ko",
+    "handle": "@darjeeling@mtd.pythonasia.org",
+    "host": "https://mtd.pythonasia.org"
+  },
+  {
+    "id": "threads-ko",
+    "network": "threads",
+    "lang": "ko",
+    "handle": "darjeeling"
+  },
+  {
+    "id": "linkedin-en",
+    "network": "linkedin",
+    "lang": "en",
+    "handle": "kwonhanbae"
+  },
+  {
+    "id": "instagram-ko",
+    "network": "instagram",
+    "lang": "ko",
+    "handle": "darjeeling",
+    "mode": "generate_only"
+  }
+]

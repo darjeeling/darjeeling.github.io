@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Darjeeling Blog Editor</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <header class="appbar">
+      <strong class="app-title">iz4u editor</strong>
+      <span id="config-summary" class="muted appbar-note"></span>
+    </header>
+
+    <nav class="view-nav" id="view-nav">
+      <button type="button" data-view="posts" class="active">Posts</button>
+      <button type="button" data-view="editor">Write</button>
+      <button type="button" data-view="social">Social</button>
+    </nav>
+
+    <main class="content">
+      <!-- ===== Posts ===== -->
+      <section id="view-posts" class="view">
+        <details class="card" id="create-post-card">
+          <summary>New draft</summary>
+          <form id="create-post-form" class="stack">
+            <label>Title
+              <input id="create-title" name="title" type="text" placeholder="New post title">
+            </label>
+            <div class="field-row">
+              <label>Lang
+                <select id="create-lang" name="lang">
+                  <option value="ko">ko</option>
+                  <option value="en">en</option>
+                </select>
+              </label>
+              <label>Category
+                <input id="create-category" name="category" type="text" value="blog">
+              </label>
+            </div>
+            <button type="submit" class="primary">Create draft</button>
+          </form>
+        </details>
+
+        <section class="card">
+          <div class="section-header">
+            <h2>Posts</h2>
+            <div class="field-row compact">
+              <span id="post-count" class="muted"></span>
+              <button id="refresh-posts" type="button">Refresh</button>
+            </div>
+          </div>
+          <div id="post-list" class="post-list"></div>
+        </section>
+      </section>
+
+      <!-- ===== Editor ===== -->
+      <section id="view-editor" class="view hidden">
+        <div class="card editor-head">
+          <div class="section-header">
+            <strong id="current-path" class="path-label">No post selected</strong>
+            <div class="field-row compact">
+              <span id="post-kind" class="badge">draft</span>
+              <button id="new-post-shortcut" type="button" class="inline-action">New post</button>
+            </div>
+          </div>
+          <p id="publish-status" class="status-line muted"></p>
+        </div>
+
+        <details class="card" id="metadata-card">
+          <summary>Metadata</summary>
+          <div class="grid-form">
+            <label>Title<input id="title" type="text"></label>
+            <label>Date<input id="date" type="text" placeholder="2026-03-13 21:00"></label>
+            <label>Category<input id="category" type="text"></label>
+            <label>Slug<input id="slug" type="text"></label>
+            <label>Lang
+              <select id="lang">
+                <option value="ko">ko</option>
+                <option value="en">en</option>
+              </select>
+            </label>
+            <label>Translation Key<input id="translation-key" type="text"></label>
+            <label class="full">Tags<input id="tags" type="text" placeholder="python, fastapi, blog"></label>
+            <label class="full">Summary<textarea id="summary" rows="3"></textarea></label>
+          </div>
+        </details>
+
+        <details class="card" id="ai-card">
+          <summary>AI Tools <span id="ai-status" class="muted"></span></summary>
+          <div class="button-stack">
+            <button data-ai-action="title" type="button">Suggest titles</button>
+            <button data-ai-action="tags" type="button">Suggest tags</button>
+            <button data-ai-action="slug" type="button">Suggest slug</button>
+            <button data-ai-action="summary" type="button">Suggest summary</button>
+          </div>
+          <div class="translation-row">
+            <select id="target-lang">
+              <option value="en">Translate to EN</option>
+              <option value="ko">Translate to KO</option>
+            </select>
+            <button id="translate-post" type="button">Create translation</button>
+          </div>
+          <div id="ai-results" class="results-list"></div>
+        </details>
+
+        <section class="card editor-card">
+          <div class="write-toggle" id="write-toggle">
+            <button type="button" data-pane="write" class="active">Write</button>
+            <button type="button" data-pane="preview">Preview</button>
+          </div>
+          <div class="editor-workbench" id="editor-workbench" data-active-pane="write">
+            <section class="workbench-panel pane-write">
+              <textarea id="body-markdown" class="markdown-editor" spellcheck="false" placeholder="Markdown body..."></textarea>
+            </section>
+            <section class="workbench-panel pane-preview">
+              <div id="preview" class="preview"></div>
+            </section>
+          </div>
+        </section>
+
+        <div class="action-bar">
+          <button id="save-post" type="button" class="primary" disabled>Save</button>
+          <button id="publish-post" type="button" disabled>Publish</button>
+          <button id="crosspost-post" type="button" disabled>Cross-post</button>
+          <button id="unpublish-post" type="button" disabled>To draft</button>
+        </div>
+      </section>
+
+      <!-- ===== Social ===== -->
+      <section id="view-social" class="view hidden">
+        <details class="card" id="social-accounts-card">
+          <summary>Accounts <button id="social-refresh-accounts" type="button" class="inline-action">Refresh</button></summary>
+          <div id="social-accounts" class="account-strip"></div>
+        </details>
+
+        <section class="card">
+          <div class="section-header">
+            <h2>Compose</h2>
+            <span id="social-draft-id" class="muted"></span>
+          </div>
+          <div class="grid-form">
+            <label>Lang
+              <select id="social-base-lang">
+                <option value="ko">ko</option>
+                <option value="en">en</option>
+              </select>
+            </label>
+            <label>Link<input id="social-link" type="text" placeholder="https://iz4u.net/..."></label>
+            <label class="full">Text<textarea id="social-base-text" rows="5" placeholder="짧은 글을 쓰면 각 SNS에 맞게 변환됩니다"></textarea></label>
+            <label class="full">Images<input id="social-image-file" type="file" accept="image/png,image/jpeg,image/webp"></label>
+          </div>
+          <div id="social-images" class="image-list"></div>
+          <p id="social-status" class="status-line muted"></p>
+          <div id="social-results" class="results-list"></div>
+        </section>
+
+        <section id="social-renders" class="render-grid"></section>
+
+        <details class="card" id="social-drafts-card">
+          <summary>Drafts <span id="social-draft-count" class="muted"></span>
+            <button id="social-sync" type="button" class="inline-action">Sync</button>
+          </summary>
+          <div id="social-drafts" class="post-list"></div>
+        </details>
+
+        <div class="action-bar">
+          <button id="social-preview" type="button" class="primary">Preview all</button>
+          <button id="social-confirm" type="button" disabled>Confirm &amp; publish</button>
+          <button id="social-instagram" type="button" disabled>Instagram</button>
+          <button id="social-new-draft" type="button">New</button>
+        </div>
+      </section>
+    </main>
+
+    <template id="ai-result-template">
+      <button class="result-chip" type="button"></button>
+    </template>
+
+    <script type="module" src="/static/app.js"></script>
+    <script type="module" src="/static/social.js"></script>
+  </body>
+</html>

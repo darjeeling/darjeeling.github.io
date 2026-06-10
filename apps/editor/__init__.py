@@ -1,0 +1,1 @@
+"""Local editor application."""

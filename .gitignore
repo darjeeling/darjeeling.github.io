@@ -112,3 +112,6 @@ venv.bak/
 
 # output directory
 output
+
+# editor local data (sqlite, processed images)
+apps/editor/data/
